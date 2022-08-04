@@ -1,3 +1,3 @@
 # AnaliseDadosCovid
 Projeto Analise de Dados Covid no Brasil
-https://rinaldogama-analisedadoscovid-projetocovidpy-w2dcgl.streamlitapp.com
+Site - Demonstrativo de Grafico On Line  - https://rinaldogama-analisedadoscovid-projetocovidpy-w2dcgl.streamlitapp.com
