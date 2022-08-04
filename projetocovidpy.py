@@ -36,7 +36,9 @@ fig = px.line(df, x="date", y=column, title=column + ' - ' + State)
 fig.update_layout( xaxis_title='Data', yaxis_title=column.upper(), title = {'x':0.5})
 
 #CONFIGURA TIPOS DE TEXTO NO 
-st.title('ANALISE CASOS SOBRE COVID - BRASIL')
+st.title('ANALISE EXPLORATORIA DE DADOS')
+st.markdown('CASOS SOBRE COVID - BRASIL')
+
 st.write('Nessa aplicação, o usuário tem a opção de escolher o estado e o tipo de informação para mostrar o gráfico. Utilize o menu lateral para alterar a mostragem.')
 
 st.plotly_chart(fig, use_container_width=True)
@@ -44,8 +46,3 @@ st.plotly_chart(fig, use_container_width=True)
 #fig.show()
 
 st.caption('Os dados foram obtidos a partir do site: https://github.com/wcota/covid19br')
-
-"""# Nova seção
-
-# Nova seção
-"""
