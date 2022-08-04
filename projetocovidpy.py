@@ -37,7 +37,7 @@ fig.update_layout( xaxis_title='Data', yaxis_title=column.upper(), title = {'x':
 
 #CONFIGURA TIPOS DE TEXTO NO 
 st.title('ANALISE EXPLORATORIA DE DADOS')
-st.header('CASOS SOBRE COVID - BRASIL')
+st.header('SOBRE CASOS DE COVID - BRASIL')
 
 st.write('Nessa aplicação, o usuário tem a opção de escolher o estado e o tipo de informação para mostrar o gráfico. Utilize o menu lateral para alterar a mostragem.')
 
