@@ -30,9 +30,9 @@ colunas = ['Novos óbitos','Novos casos','Óbitos por 100 mil habitantes','Casos
 column = st.sidebar.selectbox('Qual tipo de informação?', colunas)
 
 #SELEÇÃO DAS LINHAS QUE PERTECEM AO ESTADO 
-df = df[df['state'] == state]
+df = df[df['state'] == State]
 
-fig = px.line(df, x="date", y=column, title=column + ' - ' + state)
+fig = px.line(df, x="date", y=column, title=column + ' - ' + State)
 fig.update_layout( xaxis_title='Data', yaxis_title=column.upper(), title = {'x':0.5})
 
 #CONFIGURA TIPOS DE TEXTO NO 
